@@ -124,19 +124,19 @@ form .fields .input-field{
 
 .inall form button, .button{
   display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 45px;
-    max-width: 200px;
-    width: 100%;
-    border: none;
-    outline: none;
-    color: #fff;
-    border-radius: 5px;
-    margin: 25px 0;
-    background-color: #4070f4;
-    transition: all 0.3e linear;
-    cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  max-width: 200px;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+  margin: 25px 0;
+  background-color: #4070f4;
+  transition: all 0.3e linear;
+  cursor: pointer;
 }
 
 .inall form button, 
@@ -151,6 +151,32 @@ form button:hover{
 
 form button:active{
   font-size: 12px;
+}
+
+.inall .Log-btn{
+ position: absolute;
+ right: 0;
+}
+
+
+button.Log-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  max-width: 100px;
+  width: 50%;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #4070f4;
+  transition: all 0.3e linear;
+  cursor: pointer;
+}
+
+button.Log-btn:hover{
+  background-color: #34636e;
 }
 
 @media (max-width: 750px){
