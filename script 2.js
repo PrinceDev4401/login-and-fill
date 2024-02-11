@@ -14,3 +14,10 @@ imageInput.addEventListener('change', function() {
     reader.readAsDataURL(file);
   }
 });
+
+function logout() {
+  // Clear local storage
+  localStorage.clear();
+  // Redirect to the previous page
+  window.history.back();
+}
